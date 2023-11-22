@@ -20,6 +20,6 @@ This section is dynamic and informative, featuring a list of recent blogs pulled
 #### Overall, the website is designed with user experience in mind, ensuring easy navigation and access to essential information. Its interactive elements, like the blog filters and the question form, add to its user-centric approach. This structure not only provides valuable information but also encourages user interaction and engagement, reflecting a well-thought-out digital strategy.
 
 #### Netlify Url: https://jazzy-wisp-c71660.netlify.app/
-#### Github Repository Link: 
+#### Github Repository Link: https://github.com/00019295/webtech_cw1.git
 
 ##### This website was created to fulfill Web Technology module’s requirements and does not represent an actual company or service
