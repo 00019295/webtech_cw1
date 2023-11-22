@@ -1,0 +1,76 @@
+#about {
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 0;
+    gap: 100px;
+}
+
+#about .content {
+    display: flex;
+    flex-direction: column;
+}
+
+#about .content .title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 35px;
+    color: #F6A515 !important;
+    position: relative;
+}
+
+#about .content p {
+    font-size: 1.3em;
+    font-weight: lighter;
+    margin-bottom: 25px;
+    color: #4D4D4D;
+    line-height: 2;
+    max-width: 1200px;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#about .content ul {
+    list-style: none; /* Removes default bullets */
+    padding-left: 0;
+}
+
+#about .content ul li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    font-weight: lighter;
+}
+
+#about .content ul li::before {
+    content: '✔'; /* My custom bullet character */
+    position: absolute;
+    left: 0;
+    color: green;
+    font-size: 20px;
+}
+
+#about .content .title::before {
+    content: " ";
+    position: absolute;
+    width: 70px;
+    height: 5px;
+    background-color: #F6A515;
+    bottom: -10px;
+}
+
+#about .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Medium devices */
+@media (max-width: 1200px) {
+    #about {
+        flex-direction: column;
+        gap: 30px;
+    }
+}

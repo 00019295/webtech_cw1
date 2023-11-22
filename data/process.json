@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "title": "Trucks",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed"
+    },
+    {
+      "title": "Air",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed"
+    },
+    {
+      "title": "Railway",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed"
+    },
+    {
+      "title": "Ship",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed"
+    }
+  ]
+}

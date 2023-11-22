@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "title": "World Cargo",
+      "departure": "1600 Pennsylvania Avenue NW, Washington, D.C., USA",
+      "destination": "10 Downing Street, Westminster, London, UK"
+    },
+    {
+      "title": "Transport Planning",
+      "departure": "1 Infinite Loop, Cupertino, California, USA",
+      "destination": "89 Eucalyptus Drive, San Francisco, California, USA"
+    },
+    {
+      "title": "Boat Shipment",
+      "departure": "5 Avenue Anatole France, 75007 Paris, France",
+      "destination": "48 Pirrama Road, Pyrmont, Sydney, Australia"
+    }
+  ]
+}

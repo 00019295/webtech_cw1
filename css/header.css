@@ -1,0 +1,143 @@
+header {
+    background-color: transparent; /* Initially transparent */
+    color: black;
+    transition: 0.3s;
+    z-index: 2;
+    width: 100%;
+}
+
+header.sticky {
+    background-color: white; /* Background color when scrolled */
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    color: #000000;
+    transition: 1s;
+}
+
+header .menu-dropdown {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s, top .2s;
+    width: 100%;
+    background-color: white;
+}
+
+header .menu-dropdown.active {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+header .menu-dropdown .dropdown-items {
+    min-height: 150px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+header .menu-dropdown .dropdown-items li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+header .menu-dropdown .dropdown-items li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header .menu-dropdown .dropdown-items li::before {
+    content: '🔸'; /* My custom bullet character */
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+}
+
+header .menu-dropdown.active header {
+    background-color: #ffffff;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+nav .menu-bar {
+    display: none;
+}
+
+nav .menu-bar img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.nav-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+}
+
+header .nav-links a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #000000;
+}
+
+header .nav-links a:hover {
+    color: #F6A515;
+}
+
+header .nav-links a.current_page {
+    color: #F6A515;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Large devices */
+@media (max-width: 992px) {
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 10%;
+    }
+
+    .nav-brand {
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    nav .menu-bar {
+        display: flex;
+    }
+}

@@ -1,0 +1,23 @@
+#home {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    z-index: 1;
+}
+
+#home .title {
+    font-size: 4em;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+#home .subtitle {
+    font-size: 2em;
+    color: #ffffff;
+    font-weight: lighter;
+    margin-bottom: 35px;
+}

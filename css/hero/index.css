@@ -1,0 +1,27 @@
+@import "home.css";
+@import "about.css";
+@import "delivery.css";
+
+main {
+    padding: 0;
+    margin: 0;
+}
+
+main .hero-background-img {
+    background: url("/media/hero/hero_bg.webp") no-repeat;
+    height: 100%;
+    position: relative; /* Add relative positioning here */
+    z-index: 1;
+    padding: 200px 0;
+}
+
+main .hero-background-img::after {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}

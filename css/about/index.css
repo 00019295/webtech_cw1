@@ -1,0 +1,80 @@
+.welcome {
+    min-height: 450px;
+    background-image: url("/media/recent-deliveries/bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.welcome::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.welcome .title {
+    font-size: 4rem;
+    color: #F6A515;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.about-us {
+    padding: 75px 0;
+}
+
+.about-us .content {
+    margin-bottom: 25px;
+}
+
+.about-us .form h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+.about-us .form textarea {
+    width: 100%;
+    padding: 25px;
+    border: 1px solid #e0dada;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    outline: none;
+    font-size: 1.2rem;
+    color: #4d4d4d;
+}
+
+.about-us .form input {
+    width: 100%;
+    padding: 25px;
+    border: 1px solid #e0dada;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    outline: none;
+    font-size: 1.2rem;
+    color: #4d4d4d;
+}
+
+.about-us .form .user-credentials div {
+    width: 100%;
+}
+
+.about-us .form .user-credentials {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 50px;
+}

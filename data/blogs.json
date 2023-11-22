@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "This is a title for this post",
+      "description": "That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.",
+      "category": "Rail Freight",
+      "comments_count": 4885
+    },
+    {
+      "id": 2,
+      "title": "This is a title for this post",
+      "description": "That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.",
+      "category": "Air Freight",
+      "comments_count": 1798
+    },
+    {
+      "id": 3,
+      "title": "This is a title for this post",
+      "description": "That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.",
+      "category": "Business",
+      "comments_count": 3982
+    },
+    {
+      "id": 4,
+      "title": "This is a title for this post",
+      "description": "That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.",
+      "category": "Social",
+      "comments_count": 6894
+    }
+  ]
+}
